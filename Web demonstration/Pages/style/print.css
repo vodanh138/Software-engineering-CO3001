@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+.title{
+    width: 100%;
+    display: flex;
+    background-color: rgb(15, 183, 229);
+    flex-direction: row;
+    
+}
+
+.title img{
+    margin: 0px;
+    padding: 10px;
+   
+    max-height: 150px;
+    margin-right: 10px; 
+}
+
+.title .banner-text{
+    margin-top: 50px;;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.text{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+
+#file-input {
+  font-size: 20px;
+    width: 100px;
+    color: transparent;
+  }
+
+  #file-input-label{
+    font-size: 20px;
+
+  }
+.upload img{
+  margin-left: 115px;
+  margin-bottom: 10px;
+  width: 64px;
+}
+
+.function{
+  margin-left: 5px;
+  font-size: 20px;
+  color: aliceblue;
+  background-color:#4caf50;
+  border: 2px solid black;
+}
+
+.function:hover{
+  background-color:  rgb(204, 229, 15);
+  color: blac;
+}
+  .upload{
+    border: 2px dashed #212121;
+    height: 300px;
+    padding: 45px 0px 45px 220px;
+    margin: auto;
+    margin-top: 25px;
+    justify-content: center;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  #returnButton {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-left: 40px;
+    margin-bottom: 60px;
+    background: none;
+    border: none;
+    color: blue; 
+    font-size: 16px; 
+    cursor: pointer;
+  }
+
+
+
+
+  .modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    font-family: Arial, sans-serif;
+    width: 30%; 
+
+  }
+
+  .modal h2 {
+    margin-bottom: 20px;
+  }
+
+  .modal label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .modal input, .modal select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+
+  .modal button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .modal button:hover {
+    background-color: #45a049;
+  }
+  
+  .modal .modalHeader{
+    display: flex;
+  }
+  .image-modelHeader img{
+    width: 40px;
+    padding-top: 10px;
+    padding-right: 10px;
+
+  }
+
+  /* .modal .modalHeader .img{
+    width: 500px;
+    height: 100%;
+  
+  } */
+  .modal .button-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Overlay styles */
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+
+
+  .print-confirmation-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1001; /* Higher z-index to appear above the main modal */
+    font-family: Arial, sans-serif;
+  }
+
+  .print-confirmation-modal h2 {
+    margin-bottom: 20px;
+  }
+
+  .print-confirmation-modal button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-left: 160px;
+
+  }
+
+  .print-confirmation-modal button:hover {
+    background-color: #45a049;
+  }
+
+  .buy-confirmation-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1001; 
+    font-family: Arial, sans-serif;
+  }
+
+  .buy-confirmation-modal h2 {
+    margin-bottom: 20px;
+  }
+
+  .buy-confirmation-modal button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-left: 230px;
+  }
+
+  .buy-confirmation-modal button:hover {
+    background-color: #45a049;
+  }
+
+  /* .buy-confirmation-modal .BuyMore{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  } */
